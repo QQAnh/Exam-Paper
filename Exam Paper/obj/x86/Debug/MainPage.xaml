@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="Exam_Paper.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Exam_Paper"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="292,273,0,0" Text="FIle Name" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:ConnectionId='2' HorizontalAlignment="Left" Margin="438,267,0,0" Text="" VerticalAlignment="Top" Width="179"  Name="FileName"/>
+        <TextBlock HorizontalAlignment="Left" Margin="292,343,0,0" Text="Content to search" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:ConnectionId='3' Name="ContentText" HorizontalAlignment="Left" Margin="528,331,0,0" Text="" VerticalAlignment="Top" Width="186"/>
+        <Button x:ConnectionId='4' x:Name="Search" Content="Search in Local Folder" HorizontalAlignment="Left" Margin="292,418,0,0" VerticalAlignment="Top" Width="178"                     />
+
+
+    </Grid>
+</Page>
+

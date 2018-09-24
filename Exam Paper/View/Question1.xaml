@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="Exam_Paper.View.Question1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Exam_Paper.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid >
+        
+        <Ellipse Fill="Red" HorizontalAlignment="Left" Height="100" Margin="241,296,0,0" VerticalAlignment="Top" Width="151"/>
+        <Ellipse Fill="Red" HorizontalAlignment="Left" Height="100" Margin="729,296,0,0" VerticalAlignment="Top" Width="151"/>
+        <Ellipse Fill="Red" HorizontalAlignment="Left" Height="100" Margin="495,128,0,0" VerticalAlignment="Top" Width="151"/>
+        <Ellipse Fill="Red" HorizontalAlignment="Left" Height="100" Margin="495,477,0,0" VerticalAlignment="Top" Width="151"/>
+        <Rectangle Fill="Red" HorizontalAlignment="Left" Height="100" Margin="495,296,0,0" VerticalAlignment="Top" Width="151"/>
+
+    </Grid>
+</Page>
